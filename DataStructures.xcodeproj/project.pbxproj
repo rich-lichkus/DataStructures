@@ -21,6 +21,9 @@
 		0F84A3C21986B196003EF47D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F84A3A41986B196003EF47D /* UIKit.framework */; };
 		0F84A3CA1986B196003EF47D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0F84A3C81986B196003EF47D /* InfoPlist.strings */; };
 		0F84A3CC1986B196003EF47D /* DataStructuresTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F84A3CB1986B196003EF47D /* DataStructuresTests.m */; };
+		0F84A3D91986B1EF003EF47D /* CKNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F84A3D81986B1EF003EF47D /* CKNode.m */; };
+		0F84A3DF1986B624003EF47D /* CKStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F84A3DE1986B624003EF47D /* CKStack.m */; };
+		0F84A3E21986BC00003EF47D /* CKQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F84A3E11986BC00003EF47D /* CKQueue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,12 @@
 		0F84A3C71986B196003EF47D /* DataStructuresTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DataStructuresTests-Info.plist"; sourceTree = "<group>"; };
 		0F84A3C91986B196003EF47D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0F84A3CB1986B196003EF47D /* DataStructuresTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataStructuresTests.m; sourceTree = "<group>"; };
+		0F84A3D71986B1EF003EF47D /* CKNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CKNode.h; path = "Data Structures/CKNode.h"; sourceTree = "<group>"; };
+		0F84A3D81986B1EF003EF47D /* CKNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CKNode.m; path = "Data Structures/CKNode.m"; sourceTree = "<group>"; };
+		0F84A3DD1986B624003EF47D /* CKStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CKStack.h; path = "Data Structures/CKStack.h"; sourceTree = "<group>"; };
+		0F84A3DE1986B624003EF47D /* CKStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CKStack.m; path = "Data Structures/CKStack.m"; sourceTree = "<group>"; };
+		0F84A3E01986BC00003EF47D /* CKQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CKQueue.h; path = "Data Structures/CKQueue.h"; sourceTree = "<group>"; };
+		0F84A3E11986BC00003EF47D /* CKQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CKQueue.m; path = "Data Structures/CKQueue.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +124,8 @@
 				0F84A3AF1986B196003EF47D /* CKAppDelegate.h */,
 				0F84A3B01986B196003EF47D /* CKAppDelegate.m */,
 				0F84A3B21986B196003EF47D /* Main.storyboard */,
-				0F84A3B51986B196003EF47D /* CKViewController.h */,
-				0F84A3B61986B196003EF47D /* CKViewController.m */,
+				0F84A3D61986B1B9003EF47D /* Data Structures */,
+				0F84A3D51986B1A7003EF47D /* View Controllers */,
 				0F84A3B81986B196003EF47D /* Images.xcassets */,
 				0F84A3A71986B196003EF47D /* Supporting Files */,
 			);
@@ -150,6 +159,28 @@
 				0F84A3C81986B196003EF47D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0F84A3D51986B1A7003EF47D /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0F84A3B51986B196003EF47D /* CKViewController.h */,
+				0F84A3B61986B196003EF47D /* CKViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		0F84A3D61986B1B9003EF47D /* Data Structures */ = {
+			isa = PBXGroup;
+			children = (
+				0F84A3D71986B1EF003EF47D /* CKNode.h */,
+				0F84A3D81986B1EF003EF47D /* CKNode.m */,
+				0F84A3DD1986B624003EF47D /* CKStack.h */,
+				0F84A3DE1986B624003EF47D /* CKStack.m */,
+				0F84A3E01986BC00003EF47D /* CKQueue.h */,
+				0F84A3E11986BC00003EF47D /* CKQueue.m */,
+			);
+			name = "Data Structures";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,7 +283,10 @@
 			files = (
 				0F84A3B11986B196003EF47D /* CKAppDelegate.m in Sources */,
 				0F84A3AD1986B196003EF47D /* main.m in Sources */,
+				0F84A3DF1986B624003EF47D /* CKStack.m in Sources */,
 				0F84A3B71986B196003EF47D /* CKViewController.m in Sources */,
+				0F84A3D91986B1EF003EF47D /* CKNode.m in Sources */,
+				0F84A3E21986BC00003EF47D /* CKQueue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
