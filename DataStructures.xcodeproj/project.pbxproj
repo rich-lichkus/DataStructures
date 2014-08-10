@@ -24,6 +24,7 @@
 		0F84A3D91986B1EF003EF47D /* CKNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F84A3D81986B1EF003EF47D /* CKNode.m */; };
 		0F84A3DF1986B624003EF47D /* CKStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F84A3DE1986B624003EF47D /* CKStack.m */; };
 		0F84A3E21986BC00003EF47D /* CKQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F84A3E11986BC00003EF47D /* CKQueue.m */; };
+		0F84A3E51986CA2C003EF47D /* CKDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F84A3E41986CA2C003EF47D /* CKDictionary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,8 @@
 		0F84A3DE1986B624003EF47D /* CKStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CKStack.m; path = "Data Structures/CKStack.m"; sourceTree = "<group>"; };
 		0F84A3E01986BC00003EF47D /* CKQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CKQueue.h; path = "Data Structures/CKQueue.h"; sourceTree = "<group>"; };
 		0F84A3E11986BC00003EF47D /* CKQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CKQueue.m; path = "Data Structures/CKQueue.m"; sourceTree = "<group>"; };
+		0F84A3E31986CA2C003EF47D /* CKDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CKDictionary.h; path = "Data Structures/CKDictionary.h"; sourceTree = "<group>"; };
+		0F84A3E41986CA2C003EF47D /* CKDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CKDictionary.m; path = "Data Structures/CKDictionary.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +182,8 @@
 				0F84A3DE1986B624003EF47D /* CKStack.m */,
 				0F84A3E01986BC00003EF47D /* CKQueue.h */,
 				0F84A3E11986BC00003EF47D /* CKQueue.m */,
+				0F84A3E31986CA2C003EF47D /* CKDictionary.h */,
+				0F84A3E41986CA2C003EF47D /* CKDictionary.m */,
 			);
 			name = "Data Structures";
 			sourceTree = "<group>";
@@ -283,6 +288,7 @@
 			files = (
 				0F84A3B11986B196003EF47D /* CKAppDelegate.m in Sources */,
 				0F84A3AD1986B196003EF47D /* main.m in Sources */,
+				0F84A3E51986CA2C003EF47D /* CKDictionary.m in Sources */,
 				0F84A3DF1986B624003EF47D /* CKStack.m in Sources */,
 				0F84A3B71986B196003EF47D /* CKViewController.m in Sources */,
 				0F84A3D91986B1EF003EF47D /* CKNode.m in Sources */,

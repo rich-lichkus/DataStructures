@@ -18,4 +18,9 @@
 -(void)pushWithData:(id)data;
 -(BOOL)isEmpty;
 
+-(void)pushWithData:(id)data andKey:(NSString*)key;
+-(id)dataForKey:(NSString*)key;
+
 @end
+
+

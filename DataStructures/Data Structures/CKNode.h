@@ -12,6 +12,7 @@
 
 @property (strong, nonatomic) CKNode *nextNode;
 @property (strong, nonatomic) id data;
+@property (strong, nonatomic) NSString *key;
 
 -(instancetype)initWithData:(id)data;
 

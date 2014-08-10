@@ -47,6 +47,16 @@
     }
 }
 
+-(void)pushWithData:(id)data andKey:(NSString *)key{
+    if(![self isEmpty]){
+        CKNode *newNode = [[CKNode alloc] initWithData:data];
+        newNode.key = key;
+        newNode.nextNode = _headNode;
+        _headNode = newNode;
+    }
+}
+
+
 -(BOOL)isEmpty{
     if(_headNode){
         return NO;
@@ -55,6 +65,28 @@
     }
 }
 
+-(id)dataForKey:(NSString*)key{
+    CKNode *node = _headNode;
+    while(node){
+        if([key isEqualToString:node.key]){
+            return node.data;
+        }
+        node = node.nextNode;
+    }
+    return nil;
+}
+
+-(id)deleteNodeForKey:(NSString*)key{
+    CKNode *node = _headNode;
+    while(node){
+        if([key isEqualToString:node.key]){
+            CKNode *oldNode = node;
+            
+        }
+        node = node.nextNode;
+    }
+    return nil;
+}
 
 
 
