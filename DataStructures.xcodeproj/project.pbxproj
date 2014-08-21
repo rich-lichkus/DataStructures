@@ -25,6 +25,7 @@
 		0F84A3DF1986B624003EF47D /* CKStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F84A3DE1986B624003EF47D /* CKStack.m */; };
 		0F84A3E21986BC00003EF47D /* CKQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F84A3E11986BC00003EF47D /* CKQueue.m */; };
 		0F84A3E51986CA2C003EF47D /* CKDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F84A3E41986CA2C003EF47D /* CKDictionary.m */; };
+		0F99FA4D19A5A157005D9D51 /* CKTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F99FA4C19A5A157005D9D51 /* CKTree.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,8 @@
 		0F84A3E11986BC00003EF47D /* CKQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CKQueue.m; path = "Data Structures/CKQueue.m"; sourceTree = "<group>"; };
 		0F84A3E31986CA2C003EF47D /* CKDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CKDictionary.h; path = "Data Structures/CKDictionary.h"; sourceTree = "<group>"; };
 		0F84A3E41986CA2C003EF47D /* CKDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CKDictionary.m; path = "Data Structures/CKDictionary.m"; sourceTree = "<group>"; };
+		0F99FA4B19A5A157005D9D51 /* CKTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CKTree.h; path = "Data Structures/CKTree.h"; sourceTree = "<group>"; };
+		0F99FA4C19A5A157005D9D51 /* CKTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CKTree.m; path = "Data Structures/CKTree.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +187,8 @@
 				0F84A3E11986BC00003EF47D /* CKQueue.m */,
 				0F84A3E31986CA2C003EF47D /* CKDictionary.h */,
 				0F84A3E41986CA2C003EF47D /* CKDictionary.m */,
+				0F99FA4B19A5A157005D9D51 /* CKTree.h */,
+				0F99FA4C19A5A157005D9D51 /* CKTree.m */,
 			);
 			name = "Data Structures";
 			sourceTree = "<group>";
@@ -287,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F84A3B11986B196003EF47D /* CKAppDelegate.m in Sources */,
+				0F99FA4D19A5A157005D9D51 /* CKTree.m in Sources */,
 				0F84A3AD1986B196003EF47D /* main.m in Sources */,
 				0F84A3E51986CA2C003EF47D /* CKDictionary.m in Sources */,
 				0F84A3DF1986B624003EF47D /* CKStack.m in Sources */,
@@ -497,6 +503,7 @@
 				0F84A3D11986B196003EF47D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F84A3D21986B196003EF47D /* Build configuration list for PBXNativeTarget "DataStructuresTests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +512,7 @@
 				0F84A3D41986B196003EF47D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
