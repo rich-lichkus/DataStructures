@@ -41,10 +41,10 @@
     return [((CKStack*)_array[index]) dataForKey:key];
 }
 
--(void)removeObjectForKey:(NSString*){
-    NSInteger index = [self indexLocationForKey:key];
-    return [((CKStack*)_array[index]) deleteNodeWith:key];
-}
+//-(void)removeObjectForKey:(NSString*){
+//    NSInteger index = [self indexLocationForKey:key];
+//    return [((CKStack*)_array[index]) deleteNodeWith:key];
+//}
 
 -(NSInteger)indexLocationForKey:(NSString*)key{
     

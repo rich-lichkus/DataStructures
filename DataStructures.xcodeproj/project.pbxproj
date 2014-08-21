@@ -25,7 +25,8 @@
 		0F84A3DF1986B624003EF47D /* CKStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F84A3DE1986B624003EF47D /* CKStack.m */; };
 		0F84A3E21986BC00003EF47D /* CKQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F84A3E11986BC00003EF47D /* CKQueue.m */; };
 		0F84A3E51986CA2C003EF47D /* CKDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F84A3E41986CA2C003EF47D /* CKDictionary.m */; };
-		0F99FA4D19A5A157005D9D51 /* CKTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F99FA4C19A5A157005D9D51 /* CKTree.m */; };
+		0F99FA4D19A5A157005D9D51 /* CKBSTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F99FA4C19A5A157005D9D51 /* CKBSTree.m */; };
+		0F99FA5019A5A290005D9D51 /* CKBSTNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F99FA4F19A5A290005D9D51 /* CKBSTNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,8 +67,10 @@
 		0F84A3E11986BC00003EF47D /* CKQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CKQueue.m; path = "Data Structures/CKQueue.m"; sourceTree = "<group>"; };
 		0F84A3E31986CA2C003EF47D /* CKDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CKDictionary.h; path = "Data Structures/CKDictionary.h"; sourceTree = "<group>"; };
 		0F84A3E41986CA2C003EF47D /* CKDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CKDictionary.m; path = "Data Structures/CKDictionary.m"; sourceTree = "<group>"; };
-		0F99FA4B19A5A157005D9D51 /* CKTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CKTree.h; path = "Data Structures/CKTree.h"; sourceTree = "<group>"; };
-		0F99FA4C19A5A157005D9D51 /* CKTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CKTree.m; path = "Data Structures/CKTree.m"; sourceTree = "<group>"; };
+		0F99FA4B19A5A157005D9D51 /* CKBSTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CKBSTree.h; path = "Data Structures/CKBSTree.h"; sourceTree = "<group>"; };
+		0F99FA4C19A5A157005D9D51 /* CKBSTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CKBSTree.m; path = "Data Structures/CKBSTree.m"; sourceTree = "<group>"; };
+		0F99FA4E19A5A290005D9D51 /* CKBSTNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CKBSTNode.h; path = "Data Structures/CKBSTNode.h"; sourceTree = "<group>"; };
+		0F99FA4F19A5A290005D9D51 /* CKBSTNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CKBSTNode.m; path = "Data Structures/CKBSTNode.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,10 +190,20 @@
 				0F84A3E11986BC00003EF47D /* CKQueue.m */,
 				0F84A3E31986CA2C003EF47D /* CKDictionary.h */,
 				0F84A3E41986CA2C003EF47D /* CKDictionary.m */,
-				0F99FA4B19A5A157005D9D51 /* CKTree.h */,
-				0F99FA4C19A5A157005D9D51 /* CKTree.m */,
+				0F99FA5119A5A297005D9D51 /* Tree */,
 			);
 			name = "Data Structures";
+			sourceTree = "<group>";
+		};
+		0F99FA5119A5A297005D9D51 /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				0F99FA4E19A5A290005D9D51 /* CKBSTNode.h */,
+				0F99FA4F19A5A290005D9D51 /* CKBSTNode.m */,
+				0F99FA4B19A5A157005D9D51 /* CKBSTree.h */,
+				0F99FA4C19A5A157005D9D51 /* CKBSTree.m */,
+			);
+			name = Tree;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,7 +305,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F84A3B11986B196003EF47D /* CKAppDelegate.m in Sources */,
-				0F99FA4D19A5A157005D9D51 /* CKTree.m in Sources */,
+				0F99FA5019A5A290005D9D51 /* CKBSTNode.m in Sources */,
+				0F99FA4D19A5A157005D9D51 /* CKBSTree.m in Sources */,
 				0F84A3AD1986B196003EF47D /* main.m in Sources */,
 				0F84A3E51986CA2C003EF47D /* CKDictionary.m in Sources */,
 				0F84A3DF1986B624003EF47D /* CKStack.m in Sources */,

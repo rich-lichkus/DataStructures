@@ -9,11 +9,13 @@
 #import "CKViewController.h"
 #import "CKStack.h"
 #import "CKQueue.h"
+#import "CKBSTree.h"
 
 @interface CKViewController ()
 
 @property (strong, nonatomic) CKStack *stack;
 @property (strong, nonatomic) CKQueue *queue;
+@property (strong, nonatomic) CKBSTree *bstree;
 
 @end
 
@@ -61,6 +63,16 @@
     while(![self.queue isEmpty]){
         NSLog(@"Queue: %@",(NSString*)[self.queue dequeue]);
     }
+    
+    self.bstree = [[CKBSTree alloc] init];
+    [self.bstree addString:@"Richard" forKey:50];
+    [self.bstree addString:@"Spencer" forKey:45];
+    [self.bstree addString:@"Tod" forKey:55];
+    [self.bstree addString:@"Chicken Head" forKey:25];
+    
+    [self.bstree printInOrderTraversalFromRoot];
+    [self.bstree printPreOrderTraversalFromRoot];
+    [self.bstree printPostOrderTraversalFromRoot];
     
 }
 #pragma mark - Memory
